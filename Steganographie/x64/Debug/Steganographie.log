@@ -1,0 +1,27 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Deux ou plusieurs fichiers avec le nom Load.cpp généreront des sorties vers le même emplacement. Cela peut entraîner une génération incorrecte. Les fichiers impliqués sont Load.cpp, Source\Load.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Deux ou plusieurs fichiers avec le nom Read.cpp généreront des sorties vers le même emplacement. Cela peut entraîner une génération incorrecte. Les fichiers impliqués sont Read.cpp, Source\Read.cpp.
+  Button.cpp
+C:\Users\Faoll\source\repos\Steganographie\Steganographie\Button.cpp(6,9): warning C4312: 'cast de type' : la conversion de 'int' en 'HMENU' d'une taille supérieure
+  ConvertStringToBin.cpp
+  HideData.cpp
+  InputText.cpp
+C:\Users\Faoll\source\repos\Steganographie\Steganographie\InputText.cpp(5,17): warning C4312: 'cast de type' : la conversion de 'int' en 'HMENU' d'une taille supérieure
+  Load.cpp
+  OpenFileExplorer.cpp
+  Read.cpp
+C:\Users\Faoll\source\repos\Steganographie\Steganographie\Read.cpp(18,16): warning C4566: le caractère représenté par le nom de caractère universel '\uFFFD' ne peut pas être représenté dans la page de codes actuelle (1252)
+  RetrieveData.cpp
+  Save.cpp
+  Load.cpp
+/Source/Load.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'Source\Load.cpp' : No such file or directory
+  (compiler le fichier source '/Source/Load.cpp')
+  
+  Read.cpp
+/Source/Read.cpp(1,1): error C1083: Impossible d'ouvrir le fichier source : 'Source\Read.cpp' : No such file or directory
+  (compiler le fichier source '/Source/Read.cpp')
+  
+  Struct.cpp
+  Steganographie.cpp
+  Write.cpp
+  Génération de code en cours...
+C:\Users\Faoll\source\repos\Steganographie\Steganographie\Steganographie.cpp(176,1): warning C4715: 'WndProc' : les chemins de contrôle ne retournent pas tous une valeur
